@@ -115,6 +115,9 @@ li{
     padding: 15px;
     gap: 15px;
     text-align: center;
+    padding: 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   nav a{
