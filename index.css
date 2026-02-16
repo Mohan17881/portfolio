@@ -2,6 +2,10 @@
 *{
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     padding: 0px;
     margin: 0px;
@@ -198,9 +202,10 @@ nav a:hover{
 }
 .img {
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   border-radius: 20px;
   overflow: hidden;
+
 }
 .imgs{
     width: 400px;
@@ -382,6 +387,9 @@ nav a:hover{
 
   .about-box {
     width: 100%;
+  }
+  .edu-item{
+    font-size: 0.7rem;
   }
 
 }
